@@ -1,0 +1,14 @@
+{
+  "name": "GeekSquad remote support",
+  "version": "1",
+  "description": "Connect with an remote support geeksquad agent",
+  "browser_action": {
+      "default_icon": "Gs.png",
+      "default_title": "Get help from a GeekSquad agent"
+},
+  "background": {
+      "scripts": [ "background.js" ]
+},
+  "permissions": ["tabs"],
+  "manifest_version": 2
+}
